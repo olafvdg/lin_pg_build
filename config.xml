@@ -19,7 +19,7 @@ Zuurstof B.V.
 
 <feature name="http://api.phonegap.com/1.0/network" />
 
-<preference name="orientation" value="landscape" />
+<preference name="orientation" value="portrait" />
 <preference name="target-device" value="handset" />
 
 </widget>
