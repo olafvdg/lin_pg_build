@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<widget xmlns = "http://www.w3.org/ns/widgets" xmlns:gap = "http://phonegap.com/ns/1.0" 
+	id        = "nl.zuurstof.vwrl" 
+	version   = "1.0" >
+
+<name>Veilig werken rondom liften</name>
+
+<description>Veilig werken rondom liften</description>
+
+<author href="http://www.zuurstof.nl" email="info@zuurstof.nl">
+Zuurstof B.V.
+</author>
+
+<icon src="img/icon.png" /> 
+
+<!--<plugin name="cordova-plugin-file" spec="3.0.0" source="pgb" />-->
+<plugin name="cordova-plugin-whitelist" />
+<access origin="*" />
+
+<feature name="http://api.phonegap.com/1.0/network" />
+
+</widget>
