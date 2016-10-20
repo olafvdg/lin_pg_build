@@ -11,9 +11,13 @@
 Zuurstof B.V.
 </author>
 
-<icon src="img/icon.png" /> 
+<icon src="icon.png" /> 
+<splash src="splash.png" />
 
-<!--<plugin name="cordova-plugin-file" spec="3.0.0" source="pgb" />-->
+<splash src="img/splash/Android_320x480.9.png" platform="android" qualifier="mdpi" />
+<splash src="img/splash/Android_480x800.9.png" platform="android" qualifier="hdpi" />
+<splash src="img/splash/Android_720x1280.9.png" platform="android" qualifier="xhdpi" />
+
 <plugin name="cordova-plugin-whitelist" />
 <access origin="*" />
 
