@@ -28,5 +28,8 @@ Zuurstof B.V.
 
 <preference name="orientation" value="portrait" />
 <preference name="target-device" value="handset" />
+<preference name="SplashScreen" value="splash"/>
+<preference name="SplashScreenDelay" value="2000"/>
+<preference name="ShowSplashScreenSpinner" value="false" />
 
 </widget>
