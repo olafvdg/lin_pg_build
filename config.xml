@@ -22,6 +22,8 @@ Zuurstof B.V.
 <splash src="img/splash/Android_720x1280.9.png" platform="android" qualifier="xxxhdpi" />
 
 <plugin name="cordova-plugin-whitelist" />
+<plugin name="cordova-plugin-splashscreen" spec="~4.0.0" />
+
 <access origin="*" />
 
 <feature name="http://api.phonegap.com/1.0/network" />
