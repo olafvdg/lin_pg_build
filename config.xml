@@ -12,7 +12,7 @@ Zuurstof B.V.
 </author>
 
 <icon src="icon.png" /> 
-<splash src="splash.png" />
+<splash src="img/splash/Android_1080x1920.9.png" />
 
 <splash src="img/splash/Android_1080x1920.9.png" platform="android" />
 <!--
