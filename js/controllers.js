@@ -2,7 +2,20 @@ angular.module('vwrl.controllers', [])
 
 .filter('pipetobreak', function() {
 	return function(input) {
-		return input.replace(/\|/g, '<br/>');
+    if(input.indexOf("|")>=0) {
+      if(input.indexOf("*")>=0) {
+        input = input.replace("|*", '<div class="subline warning"><span class="icon ion-alert-circled"></span>') + '</div>';
+      } else {
+        if(input.indexOf("|")==input.indexOf("|-")) {
+          input = input.replace("|-", '<div class="subline"><ul><li class="hangingindent">-') + '</li></div>';
+        } else {
+          input = input.replace("|", '<div class="subline"><ul><li>') + '</li></div>';
+        }
+      }
+      input = input.replace(/\|-/g, '</li><li class="hangingindent">-');
+		  input = input.replace(/\|/g, '</li><li>');
+    }
+    return input;
 	}
 })
 

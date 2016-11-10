@@ -265,3 +265,22 @@ h1 {
     border-color: #000;
 	background-color: #76bd22;
 }
+.subline {
+    font-family: 'Open Sans';
+    text-transform: none;
+    font-size: 15px;
+    margin-top: 10px;
+    color: #444444;
+}
+.subline .icon {
+    margin-right: 10px;
+    float: left;
+    padding-bottom: 1px;
+}
+.hangingindent {
+    padding-left: 10px;
+    text-indent: -10px;
+}
+.item-complex .item-content, .item-radio .item-content {
+    padding: 16px 16px 16px 16px;
+}
