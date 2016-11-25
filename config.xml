@@ -44,10 +44,16 @@ Zuurstof B.V.
 
 <feature name="http://api.phonegap.com/1.0/network" />
 
-<preference name="orientation" value="portrait" />
-<preference name="target-device" value="handset" />
+<!--<preference name="orientation" value="portrait" />
+<preference name="target-device" value="handset" />-->
 <preference name="SplashScreen" value="splash"/>
 <preference name="SplashScreenDelay" value="2000"/>
 <preference name="ShowSplashScreenSpinner" value="false" />
+<preference name="fullscreen" value="true" />
+
+<platform name="ios" >
+  <preference name="UIViewControllerBasedStatusBarAppearance" value="false" />
+  <preference name="UIStatusBarHidden " value="true" />
+</platform>
 
 </widget>
