@@ -56,4 +56,7 @@ Zuurstof B.V.
   <preference name="UIStatusBarHidden " value="true" />
 </platform>
 
+<platform name="android">
+</platform>
+
 </widget>
