@@ -16,7 +16,7 @@ angular.module('vwrl', ['ionic', 'vwrl.controllers','vwrl.services'])
       StatusBar.styleDefault();
     }
   });
-	$rootScope.pw = '76152298be424277f4ed0301eef15771';
+	$rootScope.pw = '70c811d589db57ec5596d909fe2fe8c5';
 	$rootScope.store = Lawnchair({name:'linstore',adapter:'webkit-sqlite'},function(e){
 		//console.log('Storage open');
 	});
