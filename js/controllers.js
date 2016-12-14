@@ -29,6 +29,7 @@ angular.module('vwrl.controllers', [])
 	  if(md5(loginData.password) == $rootScope.pw) {
 		  // Store in database
 		  $rootScope.store.save({key:'app-pw',value: $rootScope.pw});
+      $rootScope.store.save({key:'app-user',value: loginData.username});
 		  $ionicHistory.nextViewOptions({ historyRoot: true })
 		  window.location = '#/app/disclaimer';
 	  } else {

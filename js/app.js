@@ -22,7 +22,6 @@ angular.module('vwrl', ['ionic', 'vwrl.controllers','vwrl.services'])
 	});
 	$rootScope.store.get('app-pw',function(obj) {		
 		$rootScope.storedpw = obj.value;
-    alert($rootscope.storedpw);
 		if($rootScope.pw == $rootScope.storedpw) {
 			$ionicHistory.nextViewOptions({ historyRoot: true })
 			window.location = '#/app/disclaimer';
