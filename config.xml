@@ -49,7 +49,8 @@ Zuurstof B.V.
 <preference name="SplashScreen" value="splash"/>
 <preference name="SplashScreenDelay" value="2000"/>
 <preference name="ShowSplashScreenSpinner" value="false" />
-
+<preference name="android-minSdkVersion" value="26" />
+	
 <platform name="ios" >
   <preference name="UIViewControllerBasedStatusBarAppearance" value="false" />
   <preference name="UIStatusBarHidden " value="true" />
